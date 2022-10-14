@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Helveticanowdisplay, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+#intro {
+  display: flex;
+  height: 100vh;
+}
+
+#intro #text {
+  width: 50%;
+  height: fit-content;
+}
+
+#intro #img {
+  width: 50%;
+  position: absolute;
+  top: 170px;
+}
+
+#intro #img img {
+  width: 100%;
+  height: 100%;
+}
