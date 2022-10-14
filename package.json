@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JonZavialov/virtual-museum/issues"
   },
-  "homepage": "https://github.com/JonZavialov/virtual-museum#readme"
+  "homepage": "https://github.com/JonZavialov/virtual-museum#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
