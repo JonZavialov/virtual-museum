@@ -43,10 +43,10 @@ body {
 #main .text {
   width: 50%;
   margin-right: 10%;
-  padding: 20px 0;
+  padding: 20px 0 20px 2%;
 }
 
 #main > div img {
   width: 30%;
-  margin-right: 10%;
+  margin-right: 3%;
 }
