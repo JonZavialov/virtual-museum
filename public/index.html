@@ -19,6 +19,9 @@
     <script>
       $(document).ready(() => {
         initScrollImage();
+
+        let height = $("#setting")[0].getBoundingClientRect().height;
+        $("#setting").css("height", `${height - 100}px`);
       });
     </script>
     <div id="hero">
@@ -45,8 +48,17 @@
             eligendi, dolor, optio hic vero.
           </p>
         </div>
-        <img id="top-image" src="./assets/images/map.png" />
+        <div class="images" id="top-image">
+          <img src="./assets/images/map.png" />
+          <p>
+            Active tectonics in the Aegean and surrounding area. The Peloponnese
+            Peninsula can be seen to the left.
+          </p>
+          <img src="./assets/images/racehorse.png" />
+          <p>1899 illustration depicting a racecourse at Sparta.</p>
+        </div>
       </div>
+
       <div id="earthquake">
         <div class="text">
           <h1>The Earthquake</h1>
@@ -57,7 +69,15 @@
             sapiente aspernatur? Sunt, doloremque suscipit.
           </p>
         </div>
+        <div class="images">
+          <img src="./assets/images/earthquake.jpeg" />
+          <p>
+            City of Sparta destroyed by the earthquake of 464 B.C., according to
+            the painting by Egisto
+          </p>
+        </div>
       </div>
+
       <div id="impact">
         <div class="text">
           <h1>The Impact</h1>
@@ -66,17 +86,6 @@
             alias eaque sequi cupiditate ratione nulla facere esse amet! Quidem
             harum eos suscipit maxime deleniti ducimus ipsum quae reprehenderit
             neque!
-          </p>
-        </div>
-      </div>
-      <div id="test">
-        <div class="text">
-          <h1>test</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            ullam libero neque quasi obcaecati officiis saepe perspiciatis,
-            nostrum omnis voluptatibus suscipit, maiores cumque sequi eaque eos
-            voluptatum alias ducimus vero.
           </p>
         </div>
       </div>
