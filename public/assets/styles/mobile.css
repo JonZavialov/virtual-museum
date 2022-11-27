@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0 8px;
+}
+
+a {
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
