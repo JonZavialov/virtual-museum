@@ -1,5 +1,10 @@
 html {
   scroll-behavior: smooth;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 body {
@@ -9,30 +14,6 @@ body {
   height: 100vh;
   margin: 0;
   height: fit-content;
-}
-
-#hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url("/assets/images/hero.jpg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  background-attachment: fixed;
-}
-
-#hero #text {
-  width: 45%;
-  height: fit-content;
-  margin: 100px 30px;
-  color: black;
-  font-size: 22px;
-}
-
-#hero #text h1 {
-  margin: 0;
 }
 
 #main > div:nth-child(even) {
@@ -67,31 +48,4 @@ body {
   color: #bdbdbd;
   margin: 10px 0 30px;
   width: 100%;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-  color: #8e8e8e;
-}
-
-nav {
-  background-color: #353535;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  position: absolute;
-}
-
-nav a:first-child {
-  margin-left: 20px;
-}
-
-nav a:last-child {
-  margin-right: 20px;
 }

@@ -1,0 +1,23 @@
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url("/assets/images/hero.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  background-attachment: fixed;
+}
+
+#hero #text {
+  width: 45%;
+  height: fit-content;
+  margin: 100px 30px;
+  color: black;
+  font-size: 22px;
+}
+
+#hero #text h1 {
+  margin: 0;
+}
