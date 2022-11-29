@@ -1,4 +1,4 @@
-function changeHeights(){
+function changeHeights(){    
     let textHeight = $('#setting .text')[0].getBoundingClientRect().height;
     let picsHeight = $('#setting .images')[0].getBoundingClientRect().height;
 
