@@ -1,0 +1,25 @@
+#timeline .time:not(:last-child) {
+  border-right: 3px solid #353535;
+}
+
+#timeline .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+#timeline .time .description {
+  padding: 10px;
+  background-color: #353535;
+  box-shadow: inset 0 0px 4px 0px black, inset 0 0px 4px 0px black;
+  margin: 3px 0;
+  text-align: center;
+  width: -webkit-fill-available;
+}
+
+#timeline .year {
+  font-weight: bold;
+  margin: 5px 0 10px;
+}
