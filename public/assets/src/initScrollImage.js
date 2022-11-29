@@ -8,6 +8,6 @@ function initScrollImage() {
       $("#top-image").css("transform", `translate(0, ${moveUp / -2}px)`);
     }
   });
-}
 
-// TODO: listen for screen size change, update heights
+  $(window).resize(changeHeights)
+}

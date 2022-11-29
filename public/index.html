@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/src/initScrollImage.js"></script>
     <script src="./assets/src/detectMob.js"></script>
+    <script src="./assets/src/changeHeights.js"></script>
     <link rel="stylesheet" type="text/css" href="./assets/styles/index.css" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/arrow.css" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/hero.css" />
@@ -22,9 +23,7 @@
     <script>
       $(document).ready(() => {
         initScrollImage();
-
-        let height = $("#setting")[0].getBoundingClientRect().height;
-        $("#setting").css("height", `${height - 100}px`);
+        changeHeights();
 
         if (detectMob()) {
           window.location.replace("/mobile");
