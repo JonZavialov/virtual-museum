@@ -8,6 +8,7 @@
   align-items: center;
   width: 100%;
   padding: 5px;
+  border-top: 3px solid #353535;
 }
 
 #timeline .time .description {
@@ -22,4 +23,24 @@
 #timeline .year {
   font-weight: bold;
   margin: 5px 0 10px;
+}
+
+#timeline .time:hover {
+  background-color: #252525;
+}
+
+#timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+#timeline #main-times {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#timeline h1 {
+  text-align: center;
 }
