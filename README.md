@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">A museum about the Spartan Earthquake in 464 BCE</p>
-<a href="https://jonzav.me/">View Website</a> <br> <!--TODO: update link! -->
+<a href="http://greece.jonzav.me/">View Website</a> <br> <!--TODO: update link! -->
 
 ## 👨‍💻 Development
 
