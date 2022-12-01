@@ -20,3 +20,14 @@
 #hero #text h1 {
   margin: 0;
 }
+
+#hero #caption {
+  height: min-content;
+  position: absolute;
+  width: 30%;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-style: italic;
+  margin: 40px;
+}
